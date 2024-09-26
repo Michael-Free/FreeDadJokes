@@ -1,6 +1,3 @@
-#$uri = "https://official-joke-api.appspot.com/random_joke"
-#Invoke-RestMethod -Uri $Uri -Method Get | Select-Object setup, punchline
-
 function Get-DadJoke() {
     $jokeAPI = "https://official-joke-api.appspot.com/random_joke"
 
@@ -13,5 +10,6 @@ function Get-DadJoke() {
     if (-not ($dadJoke | Get-Member -Name 'setup') -and -not ($dadJoke | Get-Member -Name 'punchline')) {
         throw 'setup and punchline object unavailabe in response'
     }
+    Write-Output $dadJoke.setup
+    Write-Output $dadJoke.punchline
 }
-
