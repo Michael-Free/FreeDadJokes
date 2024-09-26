@@ -1,3 +1,5 @@
+![Get DadJoke](Get-DadJoke.GIF)
+
 # FreeDadJokes
 Get Dad Jokes on the PowerShell Command Line! 
 
