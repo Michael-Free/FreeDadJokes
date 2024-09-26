@@ -2,9 +2,9 @@
 Get Dad Jokes on the PowerShell Command Line! 
 
 ## Description
-This is a new concept in software development and deliver called JaaS (Joke As A Service) that stands to revolutionize the way we interpret comedy.
+Introducing the latest breakthrough in software development: JaaS—Joke as a Service.  Not only is this concept ready to disrupt computing - it will disrupt everyone trying to work around you, too.
 
-With this on-demand service - you will be making your co-workers and end-users groan on a scale that was never possible before!
+By installing this PowerShell module, you'll be able to scale stupid jokes at a scale that was never possible before!
 
 ## Installation
 Install the module from the Powershell Gallery:
@@ -24,7 +24,7 @@ Get-DadJoke
 
 ## Coming Soon
 k8s Dad Joke Microservices:
-- Horizontally scale eye rolling while simultaneously wasting everyones time!
+- Horizontally scale eye rolling while simultaneously wasting everyones time (and cloud-compute resources).
 
 ## Author
 Michael Free
