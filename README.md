@@ -1,4 +1,6 @@
-![Get DadJoke](Get-DadJoke.mp4)
+<video width="320" height="240" controls>
+  <source src="Get-DadJoke.mp4" type="video/mp4">
+</video>
 
 # FreeDadJokes
 Get Dad Jokes on the PowerShell Command Line! 
