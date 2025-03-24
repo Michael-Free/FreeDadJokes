@@ -1,22 +1,35 @@
 function Get-DadJoke() {
-  <#
-  .SYNOPSIS
-      Get a Random Dad Joke on the command line.
+<#
+.SYNOPSIS
+  Get stupid Dad Jokes on the Powershell commandline!
+.DESCRIPTION
+  Unleash the ultimate arsenal of eye-rolling, groan-inducing stupidity right from your command line! This 
+  PowerShell command fetches classic dad jokes guaranteed to make coworkers sigh, friends question your 
+  humour, and children regret asking.
 
-  .DESCRIPTION
-      This function retrieves a random dad joke from the internet.
+  Perfect for when you need a laugh—or at least to inflict one on others
 
-  .EXAMPLE
-      Get-DadJoke
+.PARAMETER None
 
-      This example retrieves a random dad joke.
+.INPUTS
 
-  .NOTES
-      Author:         Michael Free
+.OUTPUTS
 
-  .OUTPUTS
-        System.String. This function outputs two lines of text to the console.
-  #>
+.EXAMPLE
+  Get-DadJoke
+
+  This command will return two lines of output. The leadup, and the joke.
+
+.NOTES
+    Author      : Michael Free
+    Date        : 2025-03-22
+    License     : Free Custom License (FCL) v1.0
+    Copyright   : 2025, Michael Free. All Rights Reserved.
+
+.LINK
+  https://github.com/Michael-Free/FreeDadJokes
+#>
+
   $jokeAPI = 'https://official-joke-api.appspot.com/random_joke'
 
   $testJokeAPI = Invoke-WebRequest -Uri $jokeAPI -Method HEAD -UseBasicParsing
