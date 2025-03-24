@@ -1,7 +1,14 @@
+---
+external help file: FreeDadJokes-help.xml
+Module Name: FreeDadJokes
+online version: https://github.com/Michael-Free/FreeDadJokes
+schema: 2.0.0
+---
+
 # Get-DadJoke
 
 ## SYNOPSIS
-Get a Random Dad Joke on the command line.
+Get stupid Dad Jokes on the Powershell commandline!
 
 ## SYNTAX
 
@@ -10,7 +17,12 @@ Get-DadJoke
 ```
 
 ## DESCRIPTION
-This function retrieves a random dad joke from the internet.
+Unleash the ultimate arsenal of eye-rolling, groan-inducing stupidity right from your command line!
+This 
+PowerShell command fetches classic dad jokes guaranteed to make coworkers sigh, friends question your 
+humour, and children regret asking.
+
+Perfect for when you need a laugh-or at least to inflict one on others
 
 ## EXAMPLES
 
@@ -19,7 +31,8 @@ This function retrieves a random dad joke from the internet.
 Get-DadJoke
 ```
 
-This example retrieves a random dad joke.
+This command will return two lines of output.
+The leadup, and the joke.
 
 ## PARAMETERS
 
@@ -27,8 +40,14 @@ This example retrieves a random dad joke.
 
 ## OUTPUTS
 
-### System.String. This function outputs two lines of text to the console.
 ## NOTES
-Author:         Michael Free
+Author      : Michael Free
+Date        : 2025-03-22
+License     : Free Custom License (FCL) v1.0
+Copyright   : 2025, Michael Free.
+All Rights Reserved.
 
 ## RELATED LINKS
+
+[https://github.com/Michael-Free/FreeDadJokes](https://github.com/Michael-Free/FreeDadJokes)
+

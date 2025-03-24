@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<helpItems schema="maml" xmlns="http://msh">
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+    <command:details>
+      <command:name>Get-DadJoke</command:name>
+      <command:verb>Get</command:verb>
+      <command:noun>DadJoke</command:noun>
+      <maml:description>
+        <maml:para>Get stupid Dad Jokes on the Powershell commandline!</maml:para>
+      </maml:description>
+    </command:details>
+    <maml:description>
+      <maml:para>Unleash the ultimate arsenal of eye-rolling, groan-inducing stupidity right from your command line! This  PowerShell command fetches classic dad jokes guaranteed to make coworkers sigh, friends question your  humour, and children regret asking.</maml:para>
+      <maml:para>Perfect for when you need a laugh-or at least to inflict one on others</maml:para>
+    </maml:description>
+    <command:syntax>
+      <command:syntaxItem>
+        <maml:name>Get-DadJoke</maml:name>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:parameters />
+    <command:inputTypes />
+    <command:returnValues />
+    <maml:alertSet>
+      <maml:alert>
+        <maml:para>Author      : Michael Free Date        : 2025-03-22 License     : Free Custom License (FCL) v1.0 Copyright   : 2025, Michael Free. All Rights Reserved.</maml:para>
+      </maml:alert>
+    </maml:alertSet>
+    <command:examples>
+      <command:example>
+        <maml:title>-------------------------- EXAMPLE 1 --------------------------</maml:title>
+        <dev:code>Get-DadJoke</dev:code>
+        <dev:remarks>
+          <maml:para>This command will return two lines of output. The leadup, and the joke.</maml:para>
+        </dev:remarks>
+      </command:example>
+    </command:examples>
+    <command:relatedLinks>
+      <maml:navigationLink>
+        <maml:linkText>https://github.com/Michael-Free/FreeDadJokes</maml:linkText>
+        <maml:uri>https://github.com/Michael-Free/FreeDadJokes</maml:uri>
+      </maml:navigationLink>
+    </command:relatedLinks>
+  </command:command>
+</helpItems>
