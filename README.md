@@ -1,10 +1,46 @@
 # FreeDadJokes
-Get Dad Jokes on the PowerShell Command Line! 
+Get Dad Jokes on the PowerShell Command Line!
+
+By installing this PowerShell module, you'll be able to scale stupid jokes at a scale that was never possible before!
 
 ## Prerequisites
+- Paternity test:
+  - Be a dad. 
+  - Have a dad (biological, step dad or otherwise).
+- Powershell access:
+  - Have Powershell available on your machine (Windows, MacOS or Linux).
+- Basic Knowledge:
+    - Familiarity with PowerShell.
+    - Access to install modules locally.
+
 ## Installation
+
+There are two ways to install the `FreeDadJokes` module:
+
+1. **Using PowerShell Gallery**
+    - Open PowerShell as an administrator and run the following command to install the module from the PowerShell Gallery:
+    ```powershell
+    Install-Module -Name FreeDadJokes -Scope CurrentUser
+    ```
+2. **Manual Installation**
+    - Clone this repository using Git or download the ZIP file.
+    - Extract the contents of the ZIP file to a directory on your computer.
+    - Open PowerShell as an administrator and navigate to the directory where you extracted the module files.
+    - Run the following command to install the module:
+
+    ```powershell
+    Import-Module -Name .\FreeDadJokes.psm1
+    ```
+    Note that the manual installation method requires you to have Git installed on your computer, as well as the ability to extract ZIP files. If you do not have these tools installed, you can use the PowerShell Gallery method instead.
+
+
 ## Usage
+
 ### Examples
+```powershell
+Get-DadJoke
+```
+This command will return two lines of output. The leadup, and the joke.
 
 ## License
 
