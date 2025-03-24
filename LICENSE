@@ -1,21 +1,40 @@
-MIT License
+# Free Custom License (FCL) v1.0
 
-Copyright (c) 2024 Michael Free
+Copyright (c) 2025, Michael Free
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This license governs the use, modification, and distribution of the Software. By using this Software, you (the "Licensee") agree to abide by the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Grant of License
+The copyright holder grants the Licensee a non-exclusive, worldwide, royalty-free license to:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+   1. Use, copy, modify, merge, publish, distribute, and sublicense the Software.
+   2. Sell copies of the Software, provided that all conditions of this license are met.
+
+## Conditions for Redistribution and Use
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+### Redistributions of Source Code 
+Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer.
+
+### Redistributions in Binary Form
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions, and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+### Endorsement or Promotion
+Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+### Employer Use Clause
+a. The current employer of the copyright holder is granted a limited, non-exclusive, royalty-free license to use the Software only during the period of the copyright holder’s active employment with the employer.
+
+b. The employer acknowledges and agrees that the Software was created without the use of company time, materials, equipment, or other resources, and that the employer does not gain any ownership, intellectual property rights, or other claims to the Software as a result of the copyright holder’s employment.
+
+c. Upon termination of the copyright holder’s employment, the employer must cease all use of the Software unless the employer obtains explicit written permission from the copyright holder for continued use.
+
+d. The copyright holder reserves the right to charge a licensing fee for any continued use of the Software by the employer after the termination of employment.
+
+### Canadian Sovereignty Recognition
+This Software may not be used, copied, modified, or distributed by any individual, organization, or entity that does not officially recognize Canada as a sovereign nation through diplomatic channels or international agreements. This includes but is not limited to governments, multinational organizations, and other entities.
+
+Violation of this clause results in immediate revocation of the license and a ban on further use, distribution, or modification of the Software.
+
+## Disclaimer of Warranty
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
