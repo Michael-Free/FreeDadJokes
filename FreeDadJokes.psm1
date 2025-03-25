@@ -11,10 +11,13 @@ function Get-DadJoke {
   Perfect for when you need a laugh—or at least to inflict one on others
 
 .PARAMETER None
+  No parameters are required for this command.
 
 .INPUTS
+  None. You cannot pipe objects to Get-DadJoke.
 
 .OUTPUTS
+  The function outputs the setup and punchline of a Dad joke in two lines of text.
 
 .EXAMPLE
   Get-DadJoke
