@@ -34,17 +34,21 @@ function Get-DadJoke {
       https://github.com/Michael-Free/FreeDadJokes
   #>
 
-  $jokeAPI = 'https://official-joke-api.appspot.com/random_joke'
+  try {
+    $testJokeAPI = Invoke-WebRequest -Uri $jokeAPI -Method HEAD -UseBasicParsing
+    if ($testJokeAPI.StatusCode -ne 200) {
+      throw "Joke API Route Unavailable"
+    }
 
-  $testJokeAPI = Invoke-WebRequest -Uri $jokeAPI -Method HEAD -UseBasicParsing
-  if (-not $testJokeAPI.StatusCode -eq 200) {
-    throw 'Joke API Route Unavailable'
-  }
+    $dadJoke = Invoke-RestMethod -Uri $jokeAPI -Method Get
+    
+    if (-not ($dadJoke | Get-Member -Name 'setup') -or -not ($dadJoke | Get-Member -Name 'punchline')) {
+      throw "setup and punchline object unavailable in response"
+    }
 
-  $dadJoke = Invoke-RestMethod -Uri $jokeAPI -Method Get
-  if (-not ($dadJoke | Get-Member -Name 'setup') -and -not ($dadJoke | Get-Member -Name 'punchline')) {
-    throw 'setup and punchline object unavailable in response'
+    Write-Output "$($dadJoke.setup)"
+    Write-Output "$($dadJoke.punchline)"
+  } catch {
+    Write-Error "An error occurred while fetching the Dad joke: $_"
   }
-  Write-Output $dadJoke.setup
-  Write-Output $dadJoke.punchline
 }
