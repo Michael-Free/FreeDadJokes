@@ -1,7 +1,8 @@
-function Get-DadJoke() {
+function Get-DadJoke {
 <#
 .SYNOPSIS
   Get stupid Dad Jokes on the Powershell commandline!
+
 .DESCRIPTION
   Unleash the ultimate arsenal of eye-rolling, groan-inducing stupidity right from your command line! This 
   PowerShell command fetches classic dad jokes guaranteed to make coworkers sigh, friends question your 
