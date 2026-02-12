@@ -26,7 +26,7 @@ Get-DadJoke
 ## ALIASES
 
 This cmdlet has the following aliases,
-  {{Insert list of aliases}}
+None.
 
 ## DESCRIPTION
 
@@ -60,16 +60,12 @@ This example captures the output as an array of strings.
 
 ## INPUTS
 
-### None. You cannot pipe input to this function.
-
-{{ Fill in the Description }}
+None. You cannot pipe input to this function.
 
 ## OUTPUTS
 
 ### System.String
 Outputs two strings to the pipeline: the joke setup followed by the punchline.
-
-{{ Fill in the Description }}
 
 ## NOTES
 
@@ -93,5 +89,4 @@ ERROR HANDLING:
 
 ## RELATED LINKS
 
-{{ Fill in the related links here }}
-
+https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7.5

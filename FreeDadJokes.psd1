@@ -12,7 +12,7 @@
 RootModule = 'FreeDadJokes.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.9.53'
+ModuleVersion = '0.9.54'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
