@@ -89,4 +89,4 @@ ERROR HANDLING:
 
 ## RELATED LINKS
 
-https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7.5
+- https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7.5

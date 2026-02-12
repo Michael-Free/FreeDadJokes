@@ -12,7 +12,7 @@
 RootModule = 'FreeDadJokes.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.9.55'
+ModuleVersion = '1.0.0'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -30,7 +30,7 @@ CompanyName = 'Michael Free'
 Copyright = '(c) Michael Free. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'Get dad jokes on the PowerShell CLI!'
+Description = 'Get corny dad jokes on the PowerShell CLI!'
 
 # Minimum version of the PowerShell engine required by this module
 PowerShellVersion = '5.1'
@@ -95,7 +95,7 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags = 'Humour','Humor','Jokes','Fun','Joke','Comedy'
+        Tags = 'Humour','Humor','Jokes','Fun','Joke','Comedy','Dad','DadJoke'
 
         # A URL to the license for this module.
         LicenseUri = 'https://github.com/Michael-Free/FreeDadJokes/LICENSE'
