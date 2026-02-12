@@ -42,7 +42,7 @@ Get-DadJoke
 
 ## Module Information
 
-* Version: v0.9.45
+* Version: v0.9.52
 * Author: Michael Free
 * License: See LICENSE file
 * Project URL: https://github.com/Michael-Free/FreeDadJokes
